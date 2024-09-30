@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    background-attachment: scroll;
+    background-color: rbg(220, 222, 224);
+    background-image: none;
+    background-size: auto;
+    font-size: 12px;
+    line-height: 1.34;
+    padding: auto;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    direction: ltr;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    margin: 10px 20px;
+    display:flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    direction: ltr;
+    flex-direction: row;
+    
+}
+
+.leftsection {
+    width: 40%;
+}
+
+h1 {
+    color: royalblue;
+    font-size: 45px;
+    height: 60px;
+    width: 300px;
+}
+
+h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: normal;
+}
+
+.rightsection {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginpage {
+    padding: 10px 0px 24px 0px;
+    margin: 85px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rbg(220, 222, 224);
+    width: 450px;
+    height: 370px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1),
+                 5px 5px 10px rgba(0, 0, 0, 0.1);
+    
+    border-radius: 10px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+input {
+    width: 396px;
+    height: 52px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid grey;
+    font-size: 17px;
+    font-style: normal;
+    border-radius: 3px;
+}
+
+input[type="Submit"] {
+    background-color: royalblue;
+    color: white;
+    height: 48px;
+    width: 412px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+p {
+    color: royalblue;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px normal grey;
+    width: 405px;
+    height: 0px;
+    margin: 20px 0px;
+}
+
+.createaccount {
+    color: white;
+    background-color: rgb(66, 183, 42);
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 48px;
+    border-radius: 3px;
+    font-weight: 30px;
+    cursor: pointer;
+}
+
+span {
+    margin: 20px 0px;
+    font-size: 14px;    
+    font-weight: 20px;
+    cursor: pointer;
+}
